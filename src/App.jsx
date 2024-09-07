@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import Reservation from './components/Reservation';
 import Team from './components/Team';
 import News from './components/News';
-import FAQ from './components/FAQ.JSX';
+import FAQ from './components/FAQ'
 import Order from './components/Order';
 
 
