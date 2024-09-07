@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Apply custom animation */
+  .bounce {
+    animation: bounce 2s infinite;
+    transition: transform 0.2s ease;
+  }
+ 
+
+  .mens{
+    background-image: url(/three-men-enjoying-burgers-and-beer-in-bar-e1627971474996.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+  }
+
+  .slick-slide > div {
+    margin: 0px 10px;
+  }
